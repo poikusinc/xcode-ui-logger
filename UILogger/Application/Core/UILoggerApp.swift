@@ -11,7 +11,8 @@ import SwiftUI
 struct UILoggerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PortSelection()
+                .preferredColorScheme(.dark)
         }
     }
 }

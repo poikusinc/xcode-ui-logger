@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4652469C29F5DD9700DF117C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4652469B29F5DD9700DF117C /* Info.plist */; };
 		46AD3CD029F4DF3B00BE3A01 /* UILoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CCF29F4DF3B00BE3A01 /* UILoggerApp.swift */; };
-		46AD3CD229F4DF3B00BE3A01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CD129F4DF3B00BE3A01 /* ContentView.swift */; };
+		46AD3CD229F4DF3B00BE3A01 /* PortSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CD129F4DF3B00BE3A01 /* PortSelection.swift */; };
 		46AD3CD429F4DF3D00BE3A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AD3CD329F4DF3D00BE3A01 /* Assets.xcassets */; };
-		46AD3CD729F4DF3D00BE3A01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AD3CD629F4DF3D00BE3A01 /* Preview Assets.xcassets */; };
+		46AD3CE029F4DFE700BE3A01 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 46AD3CDF29F4DFE700BE3A01 /* SocketIO */; };
+		46AD3CE929F4E5C500BE3A01 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CE829F4E5C500BE3A01 /* JSONParser.swift */; };
+		46AD3CEB29F4E5D700BE3A01 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CEA29F4E5D700BE3A01 /* TreeNode.swift */; };
+		46AD3CEE29F4E5F900BE3A01 /* JSONTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CED29F4E5F900BE3A01 /* JSONTreeView.swift */; };
+		46AD3CF229F513AF00BE3A01 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CF129F513AF00BE3A01 /* WebServer.swift */; };
+		46AD3CF629F51C0D00BE3A01 /* LogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CF529F51C0D00BE3A01 /* LogStore.swift */; };
+		46AD3CF929F5242700BE3A01 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CF829F5242700BE3A01 /* Bundle+Ext.swift */; };
+		46AD3CFD29F524E400BE3A01 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CFC29F524E400BE3A01 /* Device.swift */; };
+		46AD3CFF29F524F300BE3A01 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3CFE29F524F300BE3A01 /* LogModel.swift */; };
+		46AD3D0329F52D0800BE3A01 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3D0229F52D0800BE3A01 /* LogsView.swift */; };
+		46AD3D0529F5961C00BE3A01 /* DeviceLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3D0429F5961C00BE3A01 /* DeviceLogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4652469B29F5DD9700DF117C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46AD3CCC29F4DF3B00BE3A01 /* UILogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AD3CCF29F4DF3B00BE3A01 /* UILoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoggerApp.swift; sourceTree = "<group>"; };
-		46AD3CD129F4DF3B00BE3A01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46AD3CD129F4DF3B00BE3A01 /* PortSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortSelection.swift; sourceTree = "<group>"; };
 		46AD3CD329F4DF3D00BE3A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46AD3CD629F4DF3D00BE3A01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46AD3CD829F4DF3D00BE3A01 /* UILogger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UILogger.entitlements; sourceTree = "<group>"; };
+		46AD3CE829F4E5C500BE3A01 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		46AD3CEA29F4E5D700BE3A01 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		46AD3CED29F4E5F900BE3A01 /* JSONTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTreeView.swift; sourceTree = "<group>"; };
+		46AD3CF129F513AF00BE3A01 /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		46AD3CF529F51C0D00BE3A01 /* LogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStore.swift; sourceTree = "<group>"; };
+		46AD3CF829F5242700BE3A01 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		46AD3CFC29F524E400BE3A01 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		46AD3CFE29F524F300BE3A01 /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		46AD3D0229F52D0800BE3A01 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		46AD3D0429F5961C00BE3A01 /* DeviceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AD3CE029F4DFE700BE3A01 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,21 +74,87 @@
 		46AD3CCE29F4DF3B00BE3A01 /* UILogger */ = {
 			isa = PBXGroup;
 			children = (
-				46AD3CCF29F4DF3B00BE3A01 /* UILoggerApp.swift */,
-				46AD3CD129F4DF3B00BE3A01 /* ContentView.swift */,
+				4652469B29F5DD9700DF117C /* Info.plist */,
+				46AD3CFB29F524D200BE3A01 /* Models */,
+				46AD3CFA29F524C700BE3A01 /* WebServer */,
+				46AD3CF729F5241B00BE3A01 /* Extensions */,
+				46AD3CE729F4E5AF00BE3A01 /* Helpers */,
+				46AD3CE129F4E03900BE3A01 /* Application */,
 				46AD3CD329F4DF3D00BE3A01 /* Assets.xcassets */,
 				46AD3CD829F4DF3D00BE3A01 /* UILogger.entitlements */,
-				46AD3CD529F4DF3D00BE3A01 /* Preview Content */,
 			);
 			path = UILogger;
 			sourceTree = "<group>";
 		};
-		46AD3CD529F4DF3D00BE3A01 /* Preview Content */ = {
+		46AD3CE129F4E03900BE3A01 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				46AD3CD629F4DF3D00BE3A01 /* Preview Assets.xcassets */,
+				46AD3D0129F52CD600BE3A01 /* Views */,
+				46AD3D0029F52CB500BE3A01 /* Core */,
+				46AD3CEC29F4E5EE00BE3A01 /* Components */,
 			);
-			path = "Preview Content";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46AD3CE729F4E5AF00BE3A01 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CE829F4E5C500BE3A01 /* JSONParser.swift */,
+				46AD3CF529F51C0D00BE3A01 /* LogStore.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		46AD3CEC29F4E5EE00BE3A01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CED29F4E5F900BE3A01 /* JSONTreeView.swift */,
+				46AD3D0429F5961C00BE3A01 /* DeviceLogView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		46AD3CF729F5241B00BE3A01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CF829F5242700BE3A01 /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46AD3CFA29F524C700BE3A01 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CF129F513AF00BE3A01 /* WebServer.swift */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+		46AD3CFB29F524D200BE3A01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CEA29F4E5D700BE3A01 /* TreeNode.swift */,
+				46AD3CFC29F524E400BE3A01 /* Device.swift */,
+				46AD3CFE29F524F300BE3A01 /* LogModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46AD3D0029F52CB500BE3A01 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CCF29F4DF3B00BE3A01 /* UILoggerApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		46AD3D0129F52CD600BE3A01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AD3CD129F4DF3B00BE3A01 /* PortSelection.swift */,
+				46AD3D0229F52D0800BE3A01 /* LogsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +173,9 @@
 			dependencies = (
 			);
 			name = UILogger;
+			packageProductDependencies = (
+				46AD3CDF29F4DFE700BE3A01 /* SocketIO */,
+			);
 			productName = UILogger;
 			productReference = 46AD3CCC29F4DF3B00BE3A01 /* UILogger.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 46AD3CC329F4DF3B00BE3A01;
+			packageReferences = (
+				46AD3CDE29F4DFE700BE3A01 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = 46AD3CCD29F4DF3B00BE3A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AD3CD729F4DF3D00BE3A01 /* Preview Assets.xcassets in Resources */,
+				4652469C29F5DD9700DF117C /* Info.plist in Resources */,
 				46AD3CD429F4DF3D00BE3A01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +233,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AD3CD229F4DF3B00BE3A01 /* ContentView.swift in Sources */,
+				46AD3CD229F4DF3B00BE3A01 /* PortSelection.swift in Sources */,
+				46AD3CF929F5242700BE3A01 /* Bundle+Ext.swift in Sources */,
+				46AD3CE929F4E5C500BE3A01 /* JSONParser.swift in Sources */,
+				46AD3D0529F5961C00BE3A01 /* DeviceLogView.swift in Sources */,
+				46AD3CFD29F524E400BE3A01 /* Device.swift in Sources */,
+				46AD3CEE29F4E5F900BE3A01 /* JSONTreeView.swift in Sources */,
 				46AD3CD029F4DF3B00BE3A01 /* UILoggerApp.swift in Sources */,
+				46AD3CEB29F4E5D700BE3A01 /* TreeNode.swift in Sources */,
+				46AD3CF629F51C0D00BE3A01 /* LogStore.swift in Sources */,
+				46AD3D0329F52D0800BE3A01 /* LogsView.swift in Sources */,
+				46AD3CFF29F524F300BE3A01 /* LogModel.swift in Sources */,
+				46AD3CF229F513AF00BE3A01 /* WebServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,16 +373,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UILogger/Preview Content\"";
 				DEVELOPMENT_TEAM = JGA4594YWM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UILogger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "UI Logger";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.poikus.UILogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,16 +402,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UILogger/Preview Content\"";
 				DEVELOPMENT_TEAM = JGA4594YWM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UILogger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "UI Logger";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.poikus.UILogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46AD3CDE29F4DFE700BE3A01 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46AD3CDF29F4DFE700BE3A01 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46AD3CDE29F4DFE700BE3A01 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46AD3CC429F4DF3B00BE3A01 /* Project object */;
 }
